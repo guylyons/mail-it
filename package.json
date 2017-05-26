@@ -1,0 +1,31 @@
+{
+  "name": "responsive-html-email-template",
+  "version": "1.0.0",
+  "description": "When all you need is a really simple HTML email template.",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js",
+    "clipboard": "cat dist/template.html | pbcopy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guylyons/responsive-html-email-template.git"
+  },
+  "keywords": [
+    "email",
+    "boilerplate",
+    "marketing"
+  ],
+  "author": "Guy Lyons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guylyons/responsive-html-email-template/issues"
+  },
+  "homepage": "https://github.com/guylyons/responsive-html-email-template#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-email-remove-unused-css": "^1.2.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.2.0"
+  }
+}
