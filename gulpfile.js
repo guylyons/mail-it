@@ -3,7 +3,7 @@ var imagemin = require("gulp-imagemin");
 var htmlmin = require("gulp-htmlmin");
 
 var paths = {
-  images: "src/assets/images/**/*",
+  images: "src/assets/img/**/*",
   css: "src/assets/css/**/*"
 }
 
@@ -14,9 +14,9 @@ gulp.task("minify", function () {
 });
 
 gulp.task("imagemin", function () {
-  gulp.src("src/images/*")
+  gulp.src("src/assets/img/*")
     .pipe(imagemin())
-    .pipe(gulp.dest("dist/images"))
+    .pipe(gulp.dest("dist/img"))
 });
 
 //
