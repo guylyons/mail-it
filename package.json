@@ -1,15 +1,15 @@
 {
-  "name": "simple-email-template",
-  "version": "2.0.0",
+  "name": "mail-it",
+  "version": "1.0.0",
   "description": "Simple HTML email template.",
-  "main": "test.js",
+  "main": "test/test.js",
   "scripts": {
     "test": "node test.js",
     "clipboard": "cat dist/template.html | pbcopy"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guylyons/simple-email-template.git"
+    "url": "git+https://github.com/guylyons/mail-it.git"
   },
   "keywords": [
     "email",
@@ -19,9 +19,9 @@
   "author": "Guy Lyons",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/guylyons/simple-email-template/issues"
+    "url": "https://github.com/guylyons/mail-it/issues"
   },
-  "homepage": "https://github.com/guylyons/simple-email-template#readme",
+  "homepage": "https://github.com/guylyons/mail-it#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-email-remove-unused-css": "^1.2.1",
