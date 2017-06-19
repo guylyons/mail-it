@@ -26,12 +26,3 @@ gulp.task("inlinecss", function () {
     .pipe(gulp.dest("dist"));
 });
 
-//
-// gulp.task("unused", function () {
-//   return gulp.src('test.css')
-//     .pipe(remove({
-//       whitelist: []
-//     }))
-//     .pipe(gulp.dest('./out'));
-// });
-//
